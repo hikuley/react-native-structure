@@ -26,7 +26,7 @@ ENVFILE=.env.production ./gradlew assembleRelease
 echo "====================================================="
 echo "Moving apk to dist folder"
 echo "====================================================="
-mv app/build/outputs/apk/app-release.apk ../dist/instanative.apk || exit
+mv app/build/outputs/apk/app-release.apk ../dist/react-native-structure.apk || exit
 
 echo "====================================================="
 echo "RELEASE COMPLETED!"
